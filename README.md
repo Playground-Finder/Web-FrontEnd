@@ -11,6 +11,7 @@ This application was built by volunteers:
 We will update the details on this project as we have them...
 
 Stack:  
+
 Front-End:
 -React
 -React-Bootstrap 
