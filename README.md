@@ -8,14 +8,12 @@ This application was built by volunteers:
 - Jean Armstrong (Developer)  
 - Samsudeen Naina (Developer)  
 
-We will update the details on this project as we have them...
+We will update the details on this project as things progress...
 
 Stack:  
 
 Front-End:
--React
--React-Bootstrap 
+ React/React-Bootstrap/
 
 Back-End:
--.NET
--MongoDB
+.NET/MongoDB/
