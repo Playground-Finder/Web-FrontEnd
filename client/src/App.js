@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Route path="/navbar" component={Navbar} />
         <Main />
-        {/* <Route path="/tutorial" component={Tutorial} /> */}
+        {/* <Route path="/fileredItems" component={FileredItems} /> */}
       </div>
     </Router>
   );
