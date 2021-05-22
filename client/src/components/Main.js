@@ -6,9 +6,9 @@ import { Button, Card, Container, ListGroup, Form, FormGroup, FormLabel, FormCon
 const Main = () => {
     return (
 
-        <div>
+        <div class="col d-flex justify-content-center">
             <header>
-                {/* <h2>Playground Finder</h2> */}
+
                 <Container>
 
                     <Card style={{ width: '18rem' }}>
@@ -20,9 +20,9 @@ const Main = () => {
                                     <FormGroup>
                                         <FormLabel>Age group</FormLabel>
                                         <FormControl as="select">
-                                            <option>1-5</option>
-                                            <option>6-10</option>
-                                            <option>10-15</option>
+                                            <option>Junior (2-5)</option>
+                                            <option>Senior (5-12)</option>
+                                            <option>Junior and Senior (2-12)</option>
                                         </FormControl>
                                     </FormGroup>
                                 </Form>
@@ -50,8 +50,11 @@ const Main = () => {
                                         <FormControl as="select">
                                             <option>Artificial Turf</option>
                                             <option>Asphalt/Concrete</option>
+                                            <option>Rock Cover</option>
                                             <option>Rubber Chips</option>
                                             <option>Rubber Matted</option>
+                                            <option>Sand</option>
+                                            <option>Wood Cover</option>
                                         </FormControl>
                                     </FormGroup>
                                 </Form>
@@ -63,9 +66,8 @@ const Main = () => {
                                     <FormGroup>
                                         <FormLabel>Size</FormLabel>
                                         <FormControl as="select">
-                                            <option>Large</option>
-                                            <option>Medium</option>
                                             <option>Small</option>
+                                            <option>Large</option>
                                         </FormControl>
                                     </FormGroup>
                                 </Form>
@@ -88,19 +90,16 @@ const Main = () => {
 
 
                         </ListGroup>
+                        <br />
+                        <Link to="/fileredItems">
+                            <Button className="ui primary button">Submit</Button>
+                        </Link>
+                        <br />
                     </Card>
-
                 </Container>
-                <Link to="/tutorial">
-                    <Button className="ui primary button">Submit</Button>
-                </Link>
 
             </header>
         </div >
-
-
-
-
 
     )
 };
