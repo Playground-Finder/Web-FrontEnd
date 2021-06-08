@@ -4,9 +4,9 @@ const AboutUs = () => {
     return (
 
         <div>
-            <h3>This is about us heroes</h3>
-            <h3>This is about us heroes</h3>
-            <h3>This is about us heroes</h3>
+            <h3>check github</h3>
+
+            <p>This is our paragraph of text.</p>
         </div>
     )
 }

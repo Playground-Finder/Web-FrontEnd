@@ -6,7 +6,7 @@ const ContactUs = () => {
         <div>
             <h3>hello ContactUs...</h3>
             <h3>hello ContactUs...</h3>
-            <h3>hello ContactUs...</h3>
+            <h3>hello World!...</h3>
         </div>
 
     )
