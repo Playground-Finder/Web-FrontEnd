@@ -1,0 +1,41 @@
+.listPlayground-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.All-Playgrounds-Window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30.6rem;
+  height: min-content;
+  max-height: 34.4rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  border-radius: 0.78rem;
+  transform: translate(-50%, -50%);
+  min-height: 0;
+  text-align: left;
+  z-index: 3;
+}
+
+.Each-Playground-Card {
+  display: flex;
+  flex-direction: column;
+
+  height: 10rem;
+  width: 100%;
+}

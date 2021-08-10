@@ -2,11 +2,17 @@ import React from 'react'
 
 const AboutUs = () => {
     return (
-
         <div>
-            <h3>This is about us heroes</h3>
-            <h3>This is about us heroes</h3>
-            <h3>This is about us heroes</h3>
+            <h4>Our team was organically created within a
+                community focused on supporting individuals
+                local to Calgary who are interested in
+                becoming part of the growing software
+                technology industry.
+                All members are volunteering their time to
+                contribute to the development of this
+                application while also learning and
+                practicing new skills related to software
+                development.</h4>
         </div>
     )
 }
