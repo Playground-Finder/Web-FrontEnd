@@ -28,7 +28,9 @@ function InputPlaygroundFilters(props) {
     <div>
       {/* Display of Modal------------------- */}
       <div hidden={hideAllPlaygroundsModal}>
-        <OutputPlaygroundModal sethideAllPlaygroundsModal={sethideAllPlaygroundsModal} />
+        <OutputPlaygroundModal
+          sethideAllPlaygroundsModal={sethideAllPlaygroundsModal}
+        />
         {/* <ListPlaygrounds
           sethideAllPlaygroundsModal={sethideAllPlaygroundsModal}
         /> */}
