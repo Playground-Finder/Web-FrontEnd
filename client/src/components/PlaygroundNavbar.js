@@ -7,6 +7,7 @@ import { Switch, Route, Link } from "react-router-dom";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs";
 import InputPlaygroundFilters from "./InputPlaygroundFilters";
+import Logo_PF from "../images/momPlayground10.jpg";
 
 const PlaygroundNavbar = () => {
   return (
@@ -14,8 +15,9 @@ const PlaygroundNavbar = () => {
       <div>
         <Navbar bg="myblue" variant="dark" sticky="top" expand="md">
           <Navbar.Brand href="/">
-            <img src={logo} width="40px" height="40px" />
-            PlaygroundFinder
+            {/* <img src={logo} width="40px" height="40px" /> */}
+            <img src={Logo_PF} width="40px" height="40px" />
+            {" "} PlaygroundFinder
           </Navbar.Brand>
 
           <Navbar.Toggle />
