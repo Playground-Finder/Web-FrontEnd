@@ -9,11 +9,11 @@ const subscriberSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  SubsDate: {
+  subsDate: {
     type: Date,
     required: true,
     default: Date.now,
   },
 });
 
-module.export = mongoose.model("Subscriber", subscriberSchema);
+module.exports = mongoose.model("Subscriber", subscriberSchema);

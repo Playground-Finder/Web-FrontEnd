@@ -1,5 +1,16 @@
+
 GET http://localhost:3001/subscribers
 
 ###
+
 GET http://localhost:3001/subscribers/12
 
+###
+
+POST  http://localhost:3001/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person 2",
+    "subscriberToChannel": "World Water Sports 2021"
+}
