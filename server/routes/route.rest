@@ -3,7 +3,7 @@ GET http://localhost:3001/subscribers
 
 ###
 
-GET http://localhost:3001/subscribers/12
+GET http://localhost:3001/subscribers/611c9b07630a12775cfde689
 
 ###
 
@@ -11,6 +11,22 @@ POST  http://localhost:3001/subscribers
 Content-Type: application/json
 
 {
-    "name": "Amazing Person 2",
-    "subscriberToChannel": "World Water Sports 2021"
+    "name": "William Kietusmanova",
+    "email": "will22@gmail.com",
+    "city": "Red Deer"    
+}
+
+
+###
+
+DELETE http://localhost:3001/subscribers/611c956deaa59f7420f501c5
+
+###
+
+PATCH   http://localhost:3001/subscribers/611c9b07630a12775cfde689
+Content-Type: application/json
+
+{
+    "name": "Brenda Kietusmanova ",
+    "email": "bk@gmail.com
 }
