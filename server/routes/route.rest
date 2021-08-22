@@ -3,7 +3,7 @@ GET http://localhost:3001/subscribers
 
 ###
 
-GET http://localhost:3001/subscribers/611c9b07630a12775cfde689
+GET http://localhost:3001/subscribers/611c9b24630a12775cfde68c
 
 ###
 
@@ -11,22 +11,22 @@ POST  http://localhost:3001/subscribers
 Content-Type: application/json
 
 {
-    "name": "William Kietusmanova",
-    "email": "will22@gmail.com",
-    "city": "Red Deer"    
+    "name": "Will Harvey",
+    "email": "harvey22@gmail.com",
+    "city": "Edmonton"    
 }
 
 
 ###
 
-DELETE http://localhost:3001/subscribers/611c956deaa59f7420f501c5
+DELETE http://localhost:3001/subscribers/611f13e55efa82732822890f
 
 ###
 
-PATCH   http://localhost:3001/subscribers/611c9b07630a12775cfde689
+PATCH   http://localhost:3001/subscribers/611c9b24630a12775cfde68c
 Content-Type: application/json
 
 {
-    "name": "Brenda Kietusmanova ",
-    "email": "bk@gmail.com
+    "name": "Son Moon",
+    "email": "son.moon@hotmail.com"
 }

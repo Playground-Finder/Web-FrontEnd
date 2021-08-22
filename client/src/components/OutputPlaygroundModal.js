@@ -1,14 +1,7 @@
 import React from "react";
-import {
-  Card,
-  Container,
-  ListGroup,
-  Form,
-  FormGroup,
-  FormLabel,
-  FormControl,
-} from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import "../components/styles/outputPlaygroundModal.css";
+import FetchData from "./FetchData";
 
 function OutputPlaygroundModal(props) {
   let sethideAllPlaygroundsModal = props.sethideAllPlaygroundsModal;
@@ -22,11 +15,14 @@ function OutputPlaygroundModal(props) {
         }}
       ></div>
 
+      <FetchData />
+
       <div>
         <Container className="All-Playgrounds-Window">
           <h3> Available Playgrounds for you</h3>
 
-          <Card className="Each-Playground-Card">Hello Card 1</Card>
+          {/* <Card className="Each-Playground-Card">Hello Card 1</Card> */}
+          <Card className="Each-Playground-Card"></Card>
         </Container>
       </div>
     </div>
